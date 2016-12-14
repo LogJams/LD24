@@ -1,0 +1,73 @@
+8/24/12 - 10:42 PM
+I am almost four hours in, and it is going much slower than I had hoped. As of now i have some sort of monster-battle style game. The creature will "evolve" based on what attributes you give it after every battle, which is automated.
+
+I was thinking a simple rock-paper-scissors style battle, but I might go with a rock-paper-scissors-paper-spock style battle with some random numbers thrown in for fun.
+
+As of now I am just finishing the most basic infrastructure - menu navigation. I guess being a beginner is slowing me down more than I had hoped when it comes to completely writing this from scratch.
+
+
+
+8/25/12 - 12:33 AM
+The past two hours have been quite productive. I have all of the different "menus" in as well as the bracket system. The game will probably start with the player selecting a number of rounds and going from there. One tournament will be 2^n rounds, so I need to figure out how to deal with the AI selection.
+
+So far I have the player menu is working and allows altering of a monster's stats. Next is adding to the pool per round. I am debating having upgrades being free or costing points. I am leaning toward free, but based on your current stats. Eg: need 2 agility and 3 dexterity for wings. I'll do one more of these before bed.
+
+
+
+8/25/12 - 1:53 AM
+Well, it is bedtime so I will make this quick and hopefully be ready to continue around 10 tomorrow.
+The stat bar now changes based on the value of each stat (and I can tweak the max just by editing the Monster file! Woo!) The monster screen (which is the Menu class, as its the major menu) also causes the monster to dynamically load its texture if you add wings / scales, and changes size based on how many points it has in size (as of now it is one minimum).
+
+Next up is finishing the monster upgrading system by adding a couple temporary monsters and upgrades! Then it's on to the combat system, which will probably use a timer to determine when the monster attacks, and it will use a random move, which the other monster can attemt to dodge or parry or something.
+
+The 5 stats are (for now):
+	Strength - Determines damage taken/recieved
+	Size - Determines health and every 2 adds 1 to strength and subtracts 1 from agility
+	Agility - Determines ability do dodge attacks and decreases attack cooldown
+	Dexterity - Increases crit chance and needed to unlock things such as hands
+	Intelligence - Unlocks special abilities, such as a flying attack or throwing debris or something...
+
+Well, that's it for tonight. I am excited to get started again tomorrow morning!
+
+
+
+8/25/12 - 1:57 PM
+Total time: 8 hours. I feel like I should have more, oh well. I got the monster creator working about 70%. You can add limbs to creatures for the cost of 2 evolution points, and I am now making textures for Fur, Skin, and Scale creatures. I am then going to make the arms/legs for them. Getting the textures to fit the quad was unnesecarily hard, but as of now i have a working monster creator. After getting a basic texture for each base creature I am going to work on adding exp and polishing the UI up a bit. Then it's on to combat!
+
+
+8/25/12 - 4:18 PM
+
+After two hours I have the SLIME and FUR skins mostly completed, the SCALE skin is close to being done, and the SKIN skin needs to be redone (it is seriously awful).
+As of now there are still the buttons to increase stats, as well as buttons to switch between the types and to add/remove limbs.
+
+I think this game is turning virtual. The Monster League is a virtual league which evolves and battles different monsters. You are interested and join, and then evolve your own monster. I think the battles will be pokemon-esque, but you won't chose your move. Based on your intelligence your monster will chose a move it is able to perform. I think I will do this part after I add the bonuses from selecting a skin.
+
+For now text will go in the console, such as available points to spend. Eventually I am going to need something else ingame.
+
+
+8/25/12 - 6:21 PM
+I have been going at this for the past 7 and a half hours, I think it is time for a large break. As of now I need to finish the sprites, do the battle code, and draw the front menus. If I have time I will write a string-to-texture code to display things, but the dare ends at 8 PM tomorrow and I work at 4. I think I will play videogames or read a book and come back in an hour refreshed and ready to work!
+
+Next up: Coding battles or finishing sprites.
+
+
+8/25/12 - 10:30 PM
+All of the characters and buttons are finished. The main menu is good to go!
+Except one thing... I need to display the round (AKA generation) and available points. Other than that, it looks beautiful. I am going to finish the rest of the UI before I move on to making a text-renderer. After that I will start on the battling, which will be the final part. Worst case scenario I scrap that and add in something else. :'(
+
+It may not be functional, but it's kind of pretty at least!
+
+
+8/26/12 - 12:31 AM
+< 20 hours to go, I am getting a little nervous. I am constantly flip-flopping between ready and not ready, but all that is left is to render text onscreen and write the battle algorithm, which wont take long. If I manage to get all that done AND I don't have real life interfere too much tomorrow I can probably do some simple animations somewhere. For all this "work" I sure don't have anything too epic. Still, it's not too bad for only having a couple months of java under my belt!
+
+
+
+8/26/12 - 4:52 AM
+It's time for bed. I have everything ready (including all the numbers / text on the screen). All that is left is creating a simple battle algorithm. if I have any time left over after that I can think of a few ways to "Juice" my project up. Hopefully I can get up relatively early tomorrow and keep working.
+
+Although I have to say, for all this work I am learning quite a bit, and I am sure I will learn a ton reading the source code to some of these other great looking games!
+
+
+8/26/12 - 1:17 PM
+I'm done. I got up at 11 and worked for an hour before having my roomate play it, but it's done. It's not pretty, and I don't feel like making animations. The combat system is iffy, but it at least makes some sense. I was thinking about adding basic animations to the battle screen or victory screen, but I got about five hours of sleep last night. I am going to upload this, play some other awesome entries, and power nap!

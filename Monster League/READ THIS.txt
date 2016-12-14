@@ -1,0 +1,7 @@
+FYI - 
+
+I have been doing java for only a couple months, so unless you want to lose faith in the human race I suggest not looking at my source code.
+
+And if you want to learn java, you really REALLY shouldn't look at my source code!
+
+Tools I used: LWJGL, SLick 2d, paint, GIMP.
